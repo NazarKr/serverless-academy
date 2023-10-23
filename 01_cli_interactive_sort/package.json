@@ -4,7 +4,7 @@
   "description": "01_cli_interactive_sort",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
