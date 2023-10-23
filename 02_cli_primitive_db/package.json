@@ -1,0 +1,14 @@
+{
+  "name": "02_cli_primitive_db",
+  "version": "1.0.0",
+  "description": "02_cli_primitive_db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NazarKR",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.11"
+  }
+}
