@@ -1,0 +1,15 @@
+{
+  "name": "01_cli_interactive_sort",
+  "version": "1.0.0",
+  "description": "01_cli_interactive_sort",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "serverless-academy"
+  },
+  "author": "NazarKR",
+  "license": "ISC"
+}
