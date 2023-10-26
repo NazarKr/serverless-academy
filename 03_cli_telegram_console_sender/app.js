@@ -12,6 +12,8 @@ program
   .description("Send a message to the Telegram bot.")
   .action((message) => {
     bot.sendMessage(CHAT_ID, message);
+    console.log("You message send");
+
   });
 
 program
@@ -19,6 +21,8 @@ program
   .description("Send a photo to the Telegram bot.")
   .action((path) => {
     bot.sendPhoto(CHAT_ID, path);
+    console.log("You photo send");
+
   });
 
 program.parse(process.argv);
