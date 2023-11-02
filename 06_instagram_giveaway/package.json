@@ -1,0 +1,15 @@
+{
+  "name": "06_instagram_giveaway",
+  "version": "1.0.0",
+  "description": "06_instagram_giveaway",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "author": "NazarKr",
+  "license": "ISC"
+}
