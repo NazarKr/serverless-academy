@@ -1,9 +1,10 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
+const { getCurrentUser } = require("../controllers/userController");
+const { authMiddleware } = require("../middleware/authMiddleware");
+const asyncWrapper = require("../middleware/asyncWrapper");
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+/* GET users  */
+router.get("/", authMiddleware, asyncWrapper(getCurrentUser));
 
 module.exports = router;
