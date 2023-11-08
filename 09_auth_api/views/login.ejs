@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+
+<body>
+  <form action="/login" method="POST">
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email" />
+    <label for="password">Пароль</label>
+    <input type="password" name="password" id="password" />
+    <button type="submit">Відправити</button>
+  </form>
+</body>
+
+</html>
