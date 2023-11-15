@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS users CASCADE;
+
+CREATE TABLE users (
+  id VARCHAR(36) PRIMARY KEY,
+  email VARCHAR(30) NOT NULL,
+  password CHAR(60) NOT NULL,
+  refreshToken TEXT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT NOW()
+);
+
+CREATE TABLE links (
+  id VARCHAR(36) PRIMARY KEY,
+  originalLink VARCHAR NOT NULL,
+  shortToken VARCHAR NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT NOW()
+);
